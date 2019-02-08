@@ -57,7 +57,7 @@ start_Z: [if exists? %mytext_Z.txt [a/text: read %mytext_Z.txt  ]]
 
 if X = 0 [
 
-         write-clipboard "" 
+         write-clipboard " " ;; here a minimum of 1 empty spacer must be for clipboard erasing
 
          view [ title "Checkout clearance"
     
